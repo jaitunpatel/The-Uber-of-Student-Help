@@ -1,0 +1,121 @@
+# test 1 - should pick tutor2
+TUTOR tutor1 10
+TUTOR tutor2 10
+STUDENT student1
+TOPIC OO tutor1 20
+TOPIC OO tutor2 15
+REQUEST student1 OO 5
+STUDENTREPORT student1
+TUTORREPORT tutor1
+TUTORREPORT tutor2
+# test 2 - should pick tutor3 first
+TUTOR tutor3 10
+STUDENT student2
+TOPIC t2 tutor1 20
+TOPIC t2 tutor2 15
+TOPIC t2 tutor3 14
+REQUEST student2 t2 15
+STUDENTREPORT student2
+TUTORREPORT tutor3
+TUTORREPORT tutor2
+TUTORREPORT tutor1
+# test 3
+REQUEST student1 othertopic 1
+# test 4
+REQUEST student1 t2 1
+STUDENTREPORT student1
+# test 5
+TUTOR tutor4 10
+TUTOR tutor5 15
+TUTOR tutor6 1
+STUDENT student3
+TOPIC t3 tutor4 10
+TOPIC t3 tutor5 10
+TOPIC t3 tutor6 5
+REQUEST student3 t3 300
+STUDENTREPORT student3
+TUTORREPORT tutor4
+TUTORREPORT tutor5
+TUTORREPORT tutor6
+# test 6
+TOPIC t4 tutor2 1
+REQUEST student3 t4 1
+TUTORREPORT tutor2
+# test 7 - price then time then name
+TUTOR aaron 10
+TUTOR betty 10
+TUTOR charles 20
+TUTOR deborah 8
+STUDENT student4
+TOPIC anothertopicthatslonger deborah 100
+TOPIC anothertopicthatslonger charles 200
+TOPIC anothertopicthatslonger betty 200
+TOPIC anothertopicthatslonger aaron 200
+REQUEST student4 anothertopicthatslonger 39
+# test 8
+TUTOR   tutor111 10
+TUTOR tutor112 10
+TUTOR tutor113 80
+TUTOR tutor121 10
+TUTOR tutor122 10
+TUTOR tutor123 80
+TUTOR tutor131 10
+TUTOR tutor132 10
+TUTOR tutor133 80
+STUDENT student111
+STUDENT student112
+STUDENT student113
+TOPIC x1 tutor111 10
+TOPIC x1 tutor112 20
+TOPIC x1 tutor113 30
+TOPIC x1 tutor121 10
+TOPIC x1 tutor122 20
+TOPIC x1 tutor123 30
+TOPIC x1 tutor131 10
+TOPIC x1 tutor132 20
+TOPIC x1 tutor133 30
+TOPIC x2 tutor111 10
+TOPIC x2 tutor112 20
+TOPIC x2 tutor113 30
+TOPIC x2 tutor121 10
+TOPIC x2 tutor122 20
+TOPIC x2 tutor123 30
+TOPIC x2 tutor131 10
+TOPIC x2 tutor132 20
+TOPIC x2 tutor133 30
+TOPIC x3 tutor111 10
+TOPIC x3 tutor112 20
+TOPIC x3 tutor113 30
+TOPIC x3 tutor121 10
+TOPIC x3 tutor122 20
+TOPIC x3 tutor123 30
+TOPIC x3 tutor131 10
+TOPIC x3 tutor132 20
+TOPIC x3 tutor133 30
+REQUEST student111 x1 30
+REQUEST student112 x1 30
+REQUEST student113 x1 30
+REQUEST student111 x2 30
+REQUEST student112 x2 30
+REQUEST student113 x2 30
+REQUEST student111 x3 30
+REQUEST student112 x3 30
+REQUEST student113 x3 30
+TUTORREPORT tutor111
+TUTORREPORT tutor112
+TUTORREPORT tutor113
+TUTORREPORT tutor121
+TUTORREPORT tutor122
+TUTORREPORT tutor123
+TUTORREPORT tutor131
+TUTORREPORT tutor132
+TUTORREPORT tutor133
+# various lines
+TUTOR tutor1 1000
+STUDENT student1
+TOPIC OO tutor1 100
+TOPIC OO othertutor 100
+REQUEST otherstudent OO 10
+STUDENTREPORT stewdent
+TUTORREPORT toootor
+QUIT

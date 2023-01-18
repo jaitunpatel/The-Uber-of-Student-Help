@@ -1,0 +1,272 @@
+Tutor with userID tutor1 successfully created.
+Tutor with userID tutor2 successfully created.
+Student with userID student1 successfully created.
+Topic OO added to Tutor tutor1 with price 20
+Topic OO added to Tutor tutor2 with price 15
+Attempting to fulfil request for student1 to receive 5 hours of tutoring in topic OO.
+Tutor tutor2 will tutor student1 for 5 hours in OO at a rate of 15
+Report for Student student1
+-------------------------------------
+Appointment: Tutor: tutor2, topic: OO, hours: 5, total cost: 75
+Total number of hours of tutoring: 5
+Total cost of tutoring: 75
+-------------------------------------
+
+Report for Student tutor1
+-------------------------------------
+Total number of hours of tutoring: 0
+Total cost of tutoring: 0
+-------------------------------------
+
+Report for Student tutor2
+-------------------------------------
+Appointment: Tutor: tutor2, topic: OO, hours: 5, total cost: 75
+Total number of hours of tutoring: 5
+Total cost of tutoring: 75
+-------------------------------------
+
+Tutor with userID tutor3 successfully created.
+Student with userID student2 successfully created.
+Topic t2 added to Tutor tutor1 with price 20
+Topic t2 added to Tutor tutor2 with price 15
+Topic t2 added to Tutor tutor3 with price 14
+Attempting to fulfil request for student2 to receive 15 hours of tutoring in topic t2.
+Tutor tutor3 will tutor student2 for 10 hours in t2 at a rate of 14
+Tutor tutor2 will tutor student2 for 5 hours in t2 at a rate of 15
+Report for Student student2
+-------------------------------------
+Appointment: Tutor: tutor2, topic: t2, hours: 5, total cost: 75
+Appointment: Tutor: tutor3, topic: t2, hours: 10, total cost: 140
+Total number of hours of tutoring: 15
+Total cost of tutoring: 215
+-------------------------------------
+
+Report for Student tutor3
+-------------------------------------
+Appointment: Tutor: tutor3, topic: t2, hours: 10, total cost: 140
+Total number of hours of tutoring: 10
+Total cost of tutoring: 140
+-------------------------------------
+
+Report for Student tutor2
+-------------------------------------
+Appointment: Tutor: tutor2, topic: t2, hours: 5, total cost: 75
+Appointment: Tutor: tutor2, topic: OO, hours: 5, total cost: 75
+Total number of hours of tutoring: 10
+Total cost of tutoring: 150
+-------------------------------------
+
+Report for Student tutor1
+-------------------------------------
+Total number of hours of tutoring: 0
+Total cost of tutoring: 0
+-------------------------------------
+
+Attempting to fulfil request for student1 to receive 1 hours of tutoring in topic othertopic.
+No tutors available for Student student1 for 1 hours in topic othertopic.
+Attempting to fulfil request for student1 to receive 1 hours of tutoring in topic t2.
+Tutor tutor1 will tutor student1 for 1 hours in t2 at a rate of 20
+Report for Student student1
+-------------------------------------
+Appointment: Tutor: tutor1, topic: t2, hours: 1, total cost: 20
+Appointment: Tutor: tutor2, topic: OO, hours: 5, total cost: 75
+Total number of hours of tutoring: 6
+Total cost of tutoring: 95
+-------------------------------------
+
+Tutor with userID tutor4 successfully created.
+Tutor with userID tutor5 successfully created.
+Tutor with userID tutor6 successfully created.
+Student with userID student3 successfully created.
+Topic t3 added to Tutor tutor4 with price 10
+Topic t3 added to Tutor tutor5 with price 10
+Topic t3 added to Tutor tutor6 with price 5
+Attempting to fulfil request for student3 to receive 300 hours of tutoring in topic t3.
+No tutors available for Student student3 for 300 hours in topic t3.
+Report for Student student3
+-------------------------------------
+Total number of hours of tutoring: 0
+Total cost of tutoring: 0
+-------------------------------------
+
+Report for Student tutor4
+-------------------------------------
+Total number of hours of tutoring: 0
+Total cost of tutoring: 0
+-------------------------------------
+
+Report for Student tutor5
+-------------------------------------
+Total number of hours of tutoring: 0
+Total cost of tutoring: 0
+-------------------------------------
+
+Report for Student tutor6
+-------------------------------------
+Total number of hours of tutoring: 0
+Total cost of tutoring: 0
+-------------------------------------
+
+Topic t4 added to Tutor tutor2 with price 1
+Attempting to fulfil request for student3 to receive 1 hours of tutoring in topic t4.
+No tutors available for Student student3 for 1 hours in topic t4.
+Report for Student tutor2
+-------------------------------------
+Appointment: Tutor: tutor2, topic: t2, hours: 5, total cost: 75
+Appointment: Tutor: tutor2, topic: OO, hours: 5, total cost: 75
+Total number of hours of tutoring: 10
+Total cost of tutoring: 150
+-------------------------------------
+
+Tutor with userID aaron successfully created.
+Tutor with userID betty successfully created.
+Tutor with userID charles successfully created.
+Tutor with userID deborah successfully created.
+Student with userID student4 successfully created.
+Topic anothertopicthatslonger added to Tutor deborah with price 100
+Topic anothertopicthatslonger added to Tutor charles with price 200
+Topic anothertopicthatslonger added to Tutor betty with price 200
+Topic anothertopicthatslonger added to Tutor aaron with price 200
+Attempting to fulfil request for student4 to receive 39 hours of tutoring in topic anothertopicthatslonger.
+Tutor deborah will tutor student4 for 8 hours in anothertopicthatslonger at a rate of 100
+Tutor charles will tutor student4 for 20 hours in anothertopicthatslonger at a rate of 200
+Tutor aaron will tutor student4 for 10 hours in anothertopicthatslonger at a rate of 200
+Tutor betty will tutor student4 for 1 hours in anothertopicthatslonger at a rate of 200
+Tutor with userID tutor111 successfully created.
+Tutor with userID tutor112 successfully created.
+Tutor with userID tutor113 successfully created.
+Tutor with userID tutor121 successfully created.
+Tutor with userID tutor122 successfully created.
+Tutor with userID tutor123 successfully created.
+Tutor with userID tutor131 successfully created.
+Tutor with userID tutor132 successfully created.
+Tutor with userID tutor133 successfully created.
+Student with userID student111 successfully created.
+Student with userID student112 successfully created.
+Student with userID student113 successfully created.
+Topic x1 added to Tutor tutor111 with price 10
+Topic x1 added to Tutor tutor112 with price 20
+Topic x1 added to Tutor tutor113 with price 30
+Topic x1 added to Tutor tutor121 with price 10
+Topic x1 added to Tutor tutor122 with price 20
+Topic x1 added to Tutor tutor123 with price 30
+Topic x1 added to Tutor tutor131 with price 10
+Topic x1 added to Tutor tutor132 with price 20
+Topic x1 added to Tutor tutor133 with price 30
+Topic x2 added to Tutor tutor111 with price 10
+Topic x2 added to Tutor tutor112 with price 20
+Topic x2 added to Tutor tutor113 with price 30
+Topic x2 added to Tutor tutor121 with price 10
+Topic x2 added to Tutor tutor122 with price 20
+Topic x2 added to Tutor tutor123 with price 30
+Topic x2 added to Tutor tutor131 with price 10
+Topic x2 added to Tutor tutor132 with price 20
+Topic x2 added to Tutor tutor133 with price 30
+Topic x3 added to Tutor tutor111 with price 10
+Topic x3 added to Tutor tutor112 with price 20
+Topic x3 added to Tutor tutor113 with price 30
+Topic x3 added to Tutor tutor121 with price 10
+Topic x3 added to Tutor tutor122 with price 20
+Topic x3 added to Tutor tutor123 with price 30
+Topic x3 added to Tutor tutor131 with price 10
+Topic x3 added to Tutor tutor132 with price 20
+Topic x3 added to Tutor tutor133 with price 30
+Attempting to fulfil request for student111 to receive 30 hours of tutoring in topic x1.
+Tutor tutor111 will tutor student111 for 10 hours in x1 at a rate of 10
+Tutor tutor121 will tutor student111 for 10 hours in x1 at a rate of 10
+Tutor tutor131 will tutor student111 for 10 hours in x1 at a rate of 10
+Attempting to fulfil request for student112 to receive 30 hours of tutoring in topic x1.
+Tutor tutor112 will tutor student112 for 10 hours in x1 at a rate of 20
+Tutor tutor122 will tutor student112 for 10 hours in x1 at a rate of 20
+Tutor tutor132 will tutor student112 for 10 hours in x1 at a rate of 20
+Attempting to fulfil request for student113 to receive 30 hours of tutoring in topic x1.
+Tutor tutor113 will tutor student113 for 30 hours in x1 at a rate of 30
+Attempting to fulfil request for student111 to receive 30 hours of tutoring in topic x2.
+Tutor tutor123 will tutor student111 for 30 hours in x2 at a rate of 30
+Attempting to fulfil request for student112 to receive 30 hours of tutoring in topic x2.
+Tutor tutor133 will tutor student112 for 30 hours in x2 at a rate of 30
+Attempting to fulfil request for student113 to receive 30 hours of tutoring in topic x2.
+Tutor tutor113 will tutor student113 for 30 hours in x2 at a rate of 30
+Attempting to fulfil request for student111 to receive 30 hours of tutoring in topic x3.
+Tutor tutor123 will tutor student111 for 30 hours in x3 at a rate of 30
+Attempting to fulfil request for student112 to receive 30 hours of tutoring in topic x3.
+Tutor tutor133 will tutor student112 for 30 hours in x3 at a rate of 30
+Attempting to fulfil request for student113 to receive 30 hours of tutoring in topic x3.
+Tutor tutor113 will tutor student113 for 20 hours in x3 at a rate of 30
+Tutor tutor123 will tutor student113 for 10 hours in x3 at a rate of 30
+Report for Student tutor111
+-------------------------------------
+Appointment: Tutor: tutor111, topic: x1, hours: 10, total cost: 100
+Total number of hours of tutoring: 10
+Total cost of tutoring: 100
+-------------------------------------
+
+Report for Student tutor112
+-------------------------------------
+Appointment: Tutor: tutor112, topic: x1, hours: 10, total cost: 200
+Total number of hours of tutoring: 10
+Total cost of tutoring: 200
+-------------------------------------
+
+Report for Student tutor113
+-------------------------------------
+Appointment: Tutor: tutor113, topic: x3, hours: 20, total cost: 600
+Appointment: Tutor: tutor113, topic: x2, hours: 30, total cost: 900
+Appointment: Tutor: tutor113, topic: x1, hours: 30, total cost: 900
+Total number of hours of tutoring: 80
+Total cost of tutoring: 2400
+-------------------------------------
+
+Report for Student tutor121
+-------------------------------------
+Appointment: Tutor: tutor121, topic: x1, hours: 10, total cost: 100
+Total number of hours of tutoring: 10
+Total cost of tutoring: 100
+-------------------------------------
+
+Report for Student tutor122
+-------------------------------------
+Appointment: Tutor: tutor122, topic: x1, hours: 10, total cost: 200
+Total number of hours of tutoring: 10
+Total cost of tutoring: 200
+-------------------------------------
+
+Report for Student tutor123
+-------------------------------------
+Appointment: Tutor: tutor123, topic: x3, hours: 10, total cost: 300
+Appointment: Tutor: tutor123, topic: x3, hours: 30, total cost: 900
+Appointment: Tutor: tutor123, topic: x2, hours: 30, total cost: 900
+Total number of hours of tutoring: 70
+Total cost of tutoring: 2100
+-------------------------------------
+
+Report for Student tutor131
+-------------------------------------
+Appointment: Tutor: tutor131, topic: x1, hours: 10, total cost: 100
+Total number of hours of tutoring: 10
+Total cost of tutoring: 100
+-------------------------------------
+
+Report for Student tutor132
+-------------------------------------
+Appointment: Tutor: tutor132, topic: x1, hours: 10, total cost: 200
+Total number of hours of tutoring: 10
+Total cost of tutoring: 200
+-------------------------------------
+
+Report for Student tutor133
+-------------------------------------
+Appointment: Tutor: tutor133, topic: x3, hours: 30, total cost: 900
+Appointment: Tutor: tutor133, topic: x2, hours: 30, total cost: 900
+Total number of hours of tutoring: 60
+Total cost of tutoring: 1800
+-------------------------------------
+
+Tutor with userID tutor1 successfully created.
+Student with userID student1 successfully created.
+Duplicate topic OO for Tutor tutor1
+Tutor othertutor not found.
+Student otherstudent not found.
+Student stewdent not found.
+Tutor toootor not found.
+BYE
